@@ -7,15 +7,14 @@ Example
 
 .. code:: python
 
-    import pyKevo
+    from pyKevo import pyKevo
 
-    frontDoor = pyKevo('kevo_email@gmail.com','password')
+    door = pyKevo.pyKevo("user@gmail.com","passw0rd")
 
-    frontDoor.connect()
+    door.connect()
 
-    print frontDoor.lockState()
+    print door.returnLockInfo()
 
-    print frontDoor.unlockLock()
 
 Installation
 ------------
